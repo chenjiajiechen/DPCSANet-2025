@@ -1,0 +1,16 @@
+train: /home/chenjiajie/桌面/Remo_detection/datasets/LEVIR-YOLO/fogtest/clear_scene/images/
+val: /home/chenjiajie/桌面/Remo_detection/datasets/LEVIR-YOLO/fogtest/clear_scene/images/  # when test, change "val" to "test"
+test: /home/chenjiajie/桌面/Remo_detection/datasets/LEVIR-YOLO/fogtest/clear_scene/images/
+
+#train: /home/chenjiajie/桌面/Remo_detection/datasets/LEVIR-YOLO/fogtest/mist_scene/images/
+#val: /home/chenjiajie/桌面/Remo_detection/datasets/LEVIR-YOLO/fogtest/mist_scene/images/  # when test, change "val" to "test"
+#test: /home/chenjiajie/桌面/Remo_detection/datasets/LEVIR-YOLO/fogtest/mist_scene/images/
+
+#train: /home/chenjiajie/桌面/Remo_detection/datasets/LEVIR-YOLO/fogtest/cloud_scene/images/
+#val: /home/chenjiajie/桌面/Remo_detection/datasets/LEVIR-YOLO/fogtest/cloud_scene/images/  # when test, change "val" to "test"
+#test: /home/chenjiajie/桌面/Remo_detection/datasets/LEVIR-YOLO/fogtest/cloud_scene/images/
+# number of classes
+nc: 1
+
+# class names
+names: [ 'ship' ]

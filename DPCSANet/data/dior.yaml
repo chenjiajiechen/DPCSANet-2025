@@ -1,0 +1,32 @@
+train: /home/chenjiajie/桌面/Remo_detection/datasets/DIOR/train/images
+val: /home/chenjiajie/桌面/Remo_detection/datasets/DIOR/val/images # when test, change "val" to "test"
+test: /home/chenjiajie/桌面/Remo_detection/datasets/DIOR/test/images
+
+
+# number of classes
+nc: 20
+
+# Classes
+names:
+  0: harbor
+  1: ship
+  2: storagetank
+  3: chimney
+  4: dam
+  5: trainstation
+  6: basketballcourt
+  7: airport
+  8: expressway-service-area
+  9: airplane
+  10: baseballfield
+  11: expressway-toll-station
+  12: vehicle
+  13: golffield
+  14: bridge
+  15: groundtrackfield
+  16: overpass
+  17: windmill
+  18: tenniscourt
+  19: stadium
+
+

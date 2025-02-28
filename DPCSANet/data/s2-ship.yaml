@@ -1,0 +1,9 @@
+train: /home/chenjiajie/桌面/Remo_detection/datasets/LEVIR-YOLO/train/images/
+val: /home/chenjiajie/桌面/Remo_detection/datasets/LEVIR-YOLO/val/images/  # when test, change "val" to "test"
+test: /home/chenjiajie/桌面/Remo_detection/datasets/LEVIR-YOLO/test/images/
+
+# number of classes
+nc: 1
+
+# class names
+names: [ 'ship' ]

@@ -1,0 +1,9 @@
+train: /home/chenjiajie/桌面/Remo_detection/datasets/OSSD/train/images/
+val: /home/chenjiajie/桌面/Remo_detection/datasets/OSSD/val/images/  # when test, change "val" to "test"
+test: /home/chenjiajie/桌面/Remo_detection/datasets/OSSD/test/images/
+
+# number of classes
+nc: 1
+
+# class names
+names: [ 'ship' ]

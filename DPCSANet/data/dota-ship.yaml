@@ -1,0 +1,9 @@
+train: /home/chenjiajie/桌面/Remo_detection/datasets/DOTA/SegDataset/train/images  # train images (relative to 'path')
+val: /home/chenjiajie/桌面/Remo_detection/datasets/DOTA/SegDataset/val/images  # val images (relative to 'path')
+test: /home/chenjiajie/桌面/Remo_detection/datasets/DOTA/SegDataset/test/images # test images (optional)
+
+# classes number
+nc: 1
+
+# class names
+names: [ 'ship' ]
